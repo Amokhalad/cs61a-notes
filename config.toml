@@ -1,4 +1,10 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'CS61A Notes'
 theme = "hugo-book"
+publishDir = "docs"
+enableGitInfo = true
+
+[params]
+
+    BookTheme = 'auto'
